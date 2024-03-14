@@ -1,3 +1,55 @@
+class Calculator{
+    constructor(el){
+    
+        this.add = function(num1, num2){
+            return num1 + num2;
+        };
+
+        this.subtract = function(num1, num2){
+            return num1 - num2;
+        };
+        
+        this.multiply = function(num1, num2){
+            return num1 * num2;
+        };
+   
+        this.divide = function(num1, num2){
+            return num1 / num2;
+        };
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // chromew extension is the window thats running document
 
@@ -6,22 +58,22 @@
 
 // const varibl = closure(scriptt, scriptb) = html
 
-const div = document.getElementById('assigned')
-// function closure = head title
-const closure = document.createElement('div')
-closure.setAttribute('id', 'named')
-div.appendChild(closure)
+// const div = document.getElementById('assigned')
+// // function closure = head title
+// const closure = document.createElement('div')
+// closure.setAttribute('id', 'named')
+// div.appendChild(closure)
 
 
-function(script1, script2){
-    const vari = 1;
-    const varib = 10;
-    // outer function is the head
-    return function(vari, varib){
-        return vari + varib
-        // inner function is the body / what is displayed
-    };
-};
+// function(script1, script2){
+//     const vari = 1;
+//     const varib = 10;
+//     // outer function is the head
+//     return function(vari, varib){
+//         return vari + varib
+//         // inner function is the body / what is displayed
+//     };
+// };
 
 
 // main.js?   what is event listener ("DOMContentLoaded")? 
@@ -33,11 +85,4 @@ function(script1, script2){
 // document.getElementById()
 // document.querySelector()
 
-// class Calculator{
-    // constructor(el){
-    
-
-    // }
-
-// }
 

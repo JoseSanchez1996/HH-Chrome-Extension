@@ -1,0 +1,23 @@
+.body{
+    display: flex;
+    background-color: gray;    
+    margin: 0px;
+    height:400px;
+    width: 350px;
+} 
+.innerFunc{
+    display: block;
+    height: 250px;
+    width: 160px;
+    padding: 5px;
+    margin: 50px;
+    background-color: rgba(0, 128, 0, 0.665);
+    align-items: center;
+}
+button {
+    color: black;
+    background-color: rgba(0, 0, 255, 0.762);
+    height: 50px;
+    width: 50px;
+    font-size: large;
+}
